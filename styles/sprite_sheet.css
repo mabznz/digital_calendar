@@ -1,0 +1,1206 @@
+.icon {
+display:block;
+
+background-image:url("SPRITE_SHEET.png");
+background-repeat:no-repeat;
+}
+ 
+
+.sprt_btn-bet-selected {
+
+   background-position: -1299px -158px;
+   height: 46px;
+   width:46px;
+}
+
+.sprt_btn-bet-unselected {
+
+   background-position: -1251px -158px;
+   height: 46px;
+   width:46px;
+}
+
+.sprt_btn-dashboard-search {
+
+   background-position: -0px -933px;
+   height: 64px;
+   width:64px;
+}
+
+.sprt_btn-drop-down {
+
+   background-position: -1303px -46px;
+   height: 44px;
+   width:44px;
+}
+
+.sprt_btn-favorite-off {
+
+   background-position: -1301px -108px;
+   height: 44px;
+   width:46px;
+}
+
+.sprt_btn-favorite-on {
+
+   background-position: -1303px -0px;
+   height: 44px;
+   width:46px;
+}
+
+.sprt_btn-nav-bets {
+
+   background-position: -198px -933px;
+   height: 64px;
+   width:64px;
+}
+
+.sprt_btn-nav-menu {
+
+   background-position: -66px -933px;
+   height: 64px;
+   width:64px;
+}
+
+.sprt_btn-nav-user-prelogin {
+
+   background-position: -132px -933px;
+   height: 64px;
+   width:64px;
+}
+
+.sprt_btn-nav-user {
+
+   background-position: -264px -933px;
+   height: 64px;
+   width:64px;
+}
+
+.sprt_btn-popup-close {
+
+   background-position: -1251px -108px;
+   height: 48px;
+   width:48px;
+}
+
+.sprt_ico-dollar {
+
+   background-position: -1262px -972px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-menu-app-feedback {
+
+   background-position: -1242px -415px;
+   height: 35px;
+   width:36px;
+}
+
+.sprt_ico-menu-contact-tab {
+
+   background-position: -476px -987px;
+   height: 36px;
+   width:26px;
+}
+
+.sprt_ico-menu-help {
+
+   background-position: -406px -987px;
+   height: 36px;
+   width:36px;
+}
+
+.sprt_ico-menu-in-play-betting {
+
+   background-position: -368px -987px;
+   height: 36px;
+   width:36px;
+}
+
+.sprt_ico-menu-log-out {
+
+   background-position: -330px -987px;
+   height: 36px;
+   width:36px;
+}
+
+.sprt_ico-menu-terms-of-use {
+
+   background-position: -444px -987px;
+   height: 36px;
+   width:30px;
+}
+
+.sprt_ico-sport-american-football-a {
+
+   background-position: -1089px -108px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-american-football-active {
+
+   background-position: -456px -570px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-american-football-b {
+
+   background-position: -1197px -162px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-american-football-inactive {
+
+   background-position: -114px -249px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-athletics-a {
+
+   background-position: -1134px -396px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-athletics-active {
+
+   background-position: -732px -912px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-athletics-b {
+
+   background-position: -1080px -342px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-athletics-inactive {
+
+   background-position: -684px -570px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-aussie-rules-a {
+
+   background-position: -1080px -666px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-aussie-rules-active {
+
+   background-position: -798px -798px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-aussie-rules-b {
+
+   background-position: -1188px -702px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-aussie-rules-inactive {
+
+   background-position: -975px -114px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-badminton-a {
+
+   background-position: -1080px -558px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-badminton-active {
+
+   background-position: -0px -363px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-badminton-b {
+
+   background-position: -438px -933px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-badminton-inactive {
+
+   background-position: -1026px -228px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-baseball-a {
+
+   background-position: -1080px -612px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-baseball-active {
+
+   background-position: -228px -591px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-baseball-b {
+
+   background-position: -1134px -612px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-baseball-inactive {
+
+   background-position: -570px -456px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-basketball-a {
+
+   background-position: -1194px -216px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-basketball-active {
+
+   background-position: -228px -363px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-basketball-b {
+
+   background-position: -1188px -540px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-basketball-inactive {
+
+   background-position: -228px -705px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-bobsleigh-a {
+
+   background-position: -1128px -936px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-bobsleigh-active {
+
+   background-position: -456px -342px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-bobsleigh-b {
+
+   background-position: -1134px -720px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-bobsleigh-inactive {
+
+   background-position: -228px -249px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-bowls-a {
+
+   background-position: -1197px -0px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-bowls-active {
+
+   background-position: -747px -114px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-bowls-b {
+
+   background-position: -1143px -162px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-bowls-inactive {
+
+   background-position: -114px -591px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-boxing-a {
+
+   background-position: -1134px -504px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-boxing-active {
+
+   background-position: -975px -0px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-boxing-b {
+
+   background-position: -1134px -450px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-boxing-inactive {
+
+   background-position: -0px -591px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-cricket-a {
+
+   background-position: -1026px -396px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-cricket-active {
+
+   background-position: -519px -0px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-cricket-b {
+
+   background-position: -330px -933px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-cricket-inactive {
+
+   background-position: -0px -705px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-cycling-a {
+
+   background-position: -1188px -594px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-cycling-active {
+
+   background-position: -684px -456px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-cycling-b {
+
+   background-position: -1134px -666px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-cycling-inactive {
+
+   background-position: -519px -114px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-darts-a {
+
+   background-position: -1236px -918px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-darts-active {
+
+   background-position: -570px -570px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-darts-b {
+
+   background-position: -1080px -396px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-darts-inactive {
+
+   background-position: -114px -705px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-equestrian-a {
+
+   background-position: -1197px -54px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-equestrian-active {
+
+   background-position: -633px -114px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-equestrian-b {
+
+   background-position: -1188px -324px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-equestrian-inactive {
+
+   background-position: -684px -228px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-football-a {
+
+   background-position: -1188px -756px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-football-active {
+
+   background-position: -798px -570px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-football-b {
+
+   background-position: -1089px -162px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-football-inactive {
+
+   background-position: -456px -456px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-gallops-a {
+
+   background-position: -1248px -216px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-gallops-active {
+
+   background-position: -456px -684px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-gallops-b {
+
+   background-position: -384px -933px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-gallops-inactive {
+
+   background-position: -798px -342px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-golf-a {
+
+   background-position: -1140px -270px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-golf-active {
+
+   background-position: -456px -798px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-golf-b {
+
+   background-position: -1026px -504px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-golf-inactive {
+
+   background-position: -342px -477px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-greyhound-a {
+
+   background-position: -1248px -270px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-greyhound-active {
+
+   background-position: -846px -912px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-greyhound-b {
+
+   background-position: -1242px -324px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-greyhound-inactive {
+
+   background-position: -570px -798px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-harness-a {
+
+   background-position: -1143px -0px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-harness-active {
+
+   background-position: -684px -342px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-harness-b {
+
+   background-position: -1134px -342px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-harness-inactive {
+
+   background-position: -114px -477px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-hockey-a {
+
+   background-position: -1194px -270px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-hockey-active {
+
+   background-position: -405px -114px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-hockey-b {
+
+   background-position: -1134px -558px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-hockey-inactive {
+
+   background-position: -342px -249px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-ice-hockey-a {
+
+   background-position: -1026px -720px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-ice-hockey-active {
+
+   background-position: -114px -819px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-ice-hockey-b {
+
+   background-position: -1143px -108px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-ice-hockey-inactive {
+
+   background-position: -912px -456px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-mortor-cycling-active {
+
+   background-position: -633px -0px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-mortor-cycling-inactive {
+
+   background-position: -861px -114px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-motor-cycling-a {
+
+   background-position: -1026px -828px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-motor-cycling-b {
+
+   background-position: -1080px -774px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-motor-sports-a {
+
+   background-position: -1026px -450px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-motor-sports-active {
+
+   background-position: -798px -228px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-motor-sports-b {
+
+   background-position: -1134px -774px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-motor-sports-inactive {
+
+   background-position: -684px -798px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-netball-a {
+
+   background-position: -1188px -486px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-netball-active {
+
+   background-position: -747px -0px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-netball-b {
+
+   background-position: -1026px -558px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-netball-inactive {
+
+   background-position: -570px -684px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-rowing-a {
+
+   background-position: -1236px -864px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-rowing-active {
+
+   background-position: -342px -363px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-rowing-b {
+
+   background-position: -1197px -108px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-rowing-inactive {
+
+   background-position: -0px -477px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-rugby-league-a {
+
+   background-position: -1134px -828px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-rugby-league-active {
+
+   background-position: -114px -363px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-rugby-league-b {
+
+   background-position: -1089px -0px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-rugby-league-inactive {
+
+   background-position: -798px -684px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-rugby-union-a {
+
+   background-position: -1128px -882px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-rugby-union-active {
+
+   background-position: -912px -570px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-rugby-union-b {
+
+   background-position: -1080px -720px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-rugby-union-inactive {
+
+   background-position: -861px -0px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-shearing-a {
+
+   background-position: -1188px -378px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-shearing-active {
+
+   background-position: -504px -912px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-shearing-b {
+
+   background-position: -1080px -450px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-shearing-inactive {
+
+   background-position: -342px -591px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-snooker-a {
+
+   background-position: -1188px -648px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-snooker-active {
+
+   background-position: -228px -477px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-snooker-b {
+
+   background-position: -1074px -936px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-snooker-inactive {
+
+   background-position: -798px -456px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-softball-a {
+
+   background-position: -1089px -54px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-softball-active {
+
+   background-position: -405px -0px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-softball-b {
+
+   background-position: -1080px -504px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-softball-inactive {
+
+   background-position: -912px -228px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-speedway-a {
+
+   background-position: -1182px -882px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-speedway-active {
+
+   background-position: -0px -819px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-speedway-b {
+
+   background-position: -1080px -828px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-speedway-inactive {
+
+   background-position: -456px -228px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-squash-a {
+
+   background-position: -1182px -936px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-squash-active {
+
+   background-position: -228px -819px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-squash-b {
+
+   background-position: -1026px -342px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-squash-inactive {
+
+   background-position: -342px -705px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-swimming-a {
+
+   background-position: -1251px -54px;
+   height: 52px;
+   width:50px;
+}
+
+.sprt_ico-sport-swimming-active {
+
+   background-position: -960px -912px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-swimming-b {
+
+   background-position: -1251px -0px;
+   height: 52px;
+   width:50px;
+}
+
+.sprt_ico-sport-swimming-inactive {
+
+   background-position: -912px -798px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-table-tennis-a {
+
+   background-position: -1140px -216px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-table-tennis-active {
+
+   background-position: -0px -249px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-table-tennis-b {
+
+   background-position: -1026px -612px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-table-tennis-inactive {
+
+   background-position: -570px -228px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-tennis-a {
+
+   background-position: -1188px -432px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-tennis-active {
+
+   background-position: -684px -684px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-tennis-b {
+
+   background-position: -1026px -774px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-tennis-inactive {
+
+   background-position: -618px -912px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-triathlon-a {
+
+   background-position: -1074px -882px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-triathlon-active {
+
+   background-position: -912px -342px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-triathlon-b {
+
+   background-position: -1188px -810px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-triathlon-inactive {
+
+   background-position: -342px -819px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-yatching-a {
+
+   background-position: -1143px -54px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-yatching-active {
+
+   background-position: -912px -684px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-sport-yatching-b {
+
+   background-position: -1026px -666px;
+   height: 52px;
+   width:52px;
+}
+
+.sprt_ico-sport-yatching-inactive {
+
+   background-position: -570px -342px;
+   height: 112px;
+   width:112px;
+}
+
+.sprt_ico-tab-logo {
+
+   background-position: -0px -0px;
+   height: 247px;
+   width:403px;
+}
+
+.sprt_ico-user-change-pin {
+
+   background-position: -38px -999px;
+   height: 16px;
+   width:37px;
+}
+
+.sprt_ico-user-history {
+
+   background-position: -1074px -990px;
+   height: 34px;
+   width:39px;
+}
+
+.sprt_ico-user-my-details {
+
+   background-position: -1115px -990px;
+   height: 34px;
+   width:39px;
+}
+
+.sprt_ico-user-my-favourites {
+
+   background-position: -1242px -378px;
+   height: 35px;
+   width:36px;
+}
+
+.sprt_ico-user-my-settings {
+
+   background-position: -1194px -990px;
+   height: 34px;
+   width:33px;
+}
+
+.sprt_ico-user-payment-methods {
+
+   background-position: -0px -999px;
+   height: 24px;
+   width:36px;
+}
+
+.sprt_ico-user-top-up-account {
+
+   background-position: -1156px -990px;
+   height: 34px;
+   width:36px;
+}
+
+.sprt_ico-user-withdraw-funds {
+
+   background-position: -1229px -990px;
+   height: 34px;
+   width:31px;
+}
+
+

@@ -1,0 +1,128 @@
+<!-- 
+ Copyright (c) New Zealand Racing Board 2015. All rights reserved.
+
+ $URL: http://dev.ho.tab.co.nz/svn/internet-svn/digital_calendar/index.html $
+ $LastChangedRevision: 177 $
+ $LastChangedBy: mabbettb $
+ $LastChangedDate: 2015-09-23 09:41:36 +1200 (Wed, 23 Sep 2015) $
+
+ Author: Byron Mabbett
+
+ Description: Home Page for Digital Calendars
+ 
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Racing Calendar</title>
+
+  <meta http-equiv="X-UA-Compatible" content="chrome=1; IE=edge; IE=7;" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon/tab.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.2/fullcalendar.min.css">
+  <link rel="stylesheet" media="print" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.2/fullcalendar.print.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/fullcalendar.css">
+  <link rel="stylesheet" href="styles/sprite_sheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-bootstrap/0.5pre/assets/css/bootstrap.min.css">
+  
+  <!-- Look at changing this -->
+  <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+</head>
+
+<body>
+   <!--  Title Bar -->
+   <header role="banner">
+      <nav role="navigation">
+         <ul>
+            <li><a href="https://www.tab.co.nz" target="_blank"><img class="logo" src="assets/TAB2014_Logo.png"></img></a></li>
+            <li><a href="https://www.tab.co.nz/racing/video/#/" target="_blank">Racing</a></li>
+            <li><a href="https://www.tab.co.nz/sport" target="_blank">Sport</a></li>
+            <li><a href="https://www.tab.co.nz/information" target="_blank">News & Tips</a></li>
+         </ul>
+      </nav>
+   </header>
+
+   <!--  Calendar Selection Bar -->
+   <div id="calendar-selection">
+      <h3>Calendar Year 2015</h3>
+         <div class="scrollbar">
+            <div class="handle">
+               <div class="mousearea"></div>
+		       </div>
+		   </div>
+         <button class="btn backward">&lt;</button>
+         <button class="btn forward">&gt;</button>
+         <div class="frame">
+            <ul class="slidee">
+	           <li><img id="nz_all" class="icon sprt_ico-sport-shearing-b"></li>
+	           <li><img id="nz_greyhound" class="icon sprt_ico-sport-greyhound-b"></img></li>
+	           <li><img id="nz_harness" class="icon sprt_ico-sport-harness-b"></img></li>
+	           <li><img id="nz_thoroughbred" class="icon sprt_ico-sport-gallops-b"></img></li>
+	        </ul>
+	     </div>
+		    <!--  <button class="btn forward">><i class="icon-chevron-right"></i></button>
+		    <div class="controls center">
+		          <button class="btn next"><i class="icon-chevron-left"></i>next</button>  
+		          <button class="btn prev">prev<i class="icon-chevron-right"></i></button>  
+		    </div>-->
+		 
+		 
+		 <div id="subscribe_box">
+		    <a onclick="_gaq.push(['_trackEvent', 'button3', 'clicked'])" href="#" class="subscribe_button" style="top: 237px; left: 203px;"></a>
+		    <div id="accordion">
+		       <h6>Need Help with Calendar</h6>
+		       <div>
+		          <p>sfgsdf</p>
+		       </div>
+		       
+		    </div>
+		 </div>
+	 <!--<p>1</p>
+	 <p>2</p>
+	 <p>3</p>
+	 <p>4</p>
+	 <p>5</p>
+	 <p>6</p>
+	 <p>7</p>-->
+  </div>
+  <hr>
+  <div id='calendar'></div>
+  <hr>
+  <div class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <div class="footer-left-container">
+          <div>
+            <a href="https://www.tab.co.nz/help/contact-us/helpdesk.html" class="h1">CONTACT US</a>&nbsp;&nbsp;&nbsp;
+            <a href="https://www.tab.co.nz/help/tc-rules/tc-rules.html" class="h1">TERMS & CONDITIONS</a>&nbsp;&nbsp;&nbsp;
+            <a href="https://tab.co.nz" class="h1">WWW.TAB.CO.NZ</a>
+          </div>
+          <div class="h2">Copyright 2015 &copy; TAB.  All rights reserved</div>
+        </div>
+      </div>
+      <div class="footer-social">
+        <a href="https://twitter.com/TAB_Sport" target="_blank"><img class="apple" src="assets/ico-footer-twitter.png" style="left: 0px; border-style=none;" /></a>
+        <a href="https://www.facebook.com/TAB" target="_blank"><img class="android" src="assets/ico-footer-facebook.png" style="left: 70px; border-style=none;" /></a>
+      </div>
+      </div>
+   </div>
+   <script type="text/javascript">
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-4471892-48', 'auto');
+	  ga('send', 'pageview');
+
+   </script>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script language="JavaScript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script language="JavaScript" src="scripts/script.js"></script>
+<script language="JavaScript" src="scripts/sly.js"></script>
+<script language="JavaScript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+<script language="JavaScript" src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.2/fullcalendar.min.js"></script>
+<script language="JavaScript" src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.2/gcal.js"></script>
+</html>
