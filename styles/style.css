@@ -9,6 +9,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  background-color: #F2F2F2;
 }
 
 header { 
@@ -17,9 +18,8 @@ header {
 
 nav ul {
    list-style-type: none;
-   
    padding: 0;
-   margin: 0 0 0; /*t,r,b*/
+   margin: 0 0 0;
 }
 
 nav li {
@@ -52,13 +52,20 @@ img.logo {
 
 
 @media only screen and (min-width: 30em) {
+    
+    /* Non header and footer of site */
+    
+    #content {
+        width: 80%;
+        margin: 0px 10% 0px 10%;
+    }
    
    header {
      height: 60px;
    }
    nav ul {
      width: 80%;
-     margin: 0px 10% 0px 10%   
+     margin: 0px 10% 0px 10%;
    }
    nav li {
       display: block;
@@ -74,45 +81,66 @@ img.logo {
       text-align: left;
       width: 10%;
    }
+   
+   /* calendar selection and subscribe boxes */
+   
+   
+   #calendar-selection {
+       float: left;
+   }
+   #subscribe-box {
+       display: block;
+        float: right;
+   }
 }
 
-/* The rest */
-
-/*div {
-  display: block;
-}*/
-
-.backward {
-  float: left;
-  width: 20px;
-  height: 100px;
-  font-size: 20px;
-}
-
-.forward {
-  float: right;
-  width: 20px;
-  height: 100px;
-  font-size: 20px;
-}
+/* The intro txt */
 
 #calendar-article {
   text-align: left;
-  width: 80%;
-  margin: 0px 10% 0px 10% 
+  /*width: 80%;
+  margin: 0px 10% 0px 10%;*/
 }
 
+
+/*              The Calendar Selection Box                */
+
 #calendar-selection {
-  height: 80px;
+  width: 45%;
   display: table;
   margin: 0 auto;
+  background-color: #FFF;
+}
+
+.calendar-selection-header {
+    height: 25px;
+    background: linear-gradient(to right,#001441,#2167a2);
+    border-radius: 3px 3px 0 0;
+    font-weight: 700;
+    padding: 8px 14px;
+}
+
+.calendar-selection-header-text {
+    font-size: 1.2em;
+    color: white;
+}
+
+.splitter {
+    color: #F2F2F2;
+    background-color: #F2F2F2;
+    height: 3px;
+    /*color: #F2F2F2;*/
+}
+
+.calendar-selection-code {
+    height: 60px;
+    margin: 4px 0;  
 }
 
 #calendar-selection ul {
   
    list-style-type: none;
-   /*padding: 0;
-   margin: 0; */
+
 }
 
 #calendar-selection ul li {
@@ -120,131 +148,89 @@ img.logo {
    float: left;
 }
 
+/*              Subscribe Box               */
+
+#subscribe-box {
+    width: 52%;
+  display: table;
+  margin: 0 auto;
+  background-color: #FFF;
+}
+
+.subscribe-box-header {
+    height: 25px;
+    background: linear-gradient(to right,#001441,#2167a2);
+    border-radius: 3px 3px 0 0;
+    font-weight: 700;
+    padding: 8px 14px;
+}
+
+.subscribe-box-header-text {
+    font-size: 1.2em;
+    color: white;
+}
+
+.subscribe-box-info {
+    padding: 8px 8px;
+}
+
+.subscribe-box-info img {
+    width: 80px;
+   height: 80px;
+   float: left;
+}
+
+.subscribe-box-info p {
+    width: 80%;
+    float: right;
+}
+
+.subscribe-box-footer {
+    clear: both;
+}
+
+.btn-subscribe {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
+	background:-moz-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-o-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:-ms-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2',GradientType=0);
+	background-color:#33bdef;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+}
+.btn-subscribe :hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
+	background:-moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:-ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0);
+	background-color:#019ad2;
+}
+.btn-subscribe:active {
+	position:relative;
+	top:1px;
+}
+
+/* Calendar */
 
 #calendar {
-   width: 80%;
-   margin: 0px 10% 0px 10%
-}
-
-
-
-
-
-#subscribe_box {
-   height: 50px;
-   text-align: center;
-}
-
-#country-selection {
-   height: 50px;
-   text-align: center;
-}
-
-[class^="btn"] {
-   border-top: 1px solid #96d1f8;
-   background: #65a9d7;
-   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
-   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
-   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
-   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
-   background: -o-linear-gradient(top, #3e779d, #65a9d7);
-   padding: 5.5px 11px;
-   -webkit-border-radius: 3px;
-   -moz-border-radius: 3px;
-   border-radius: 3px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   color: white;
-   font-size: 13px;
-   font-family: Georgia, serif;
-   text-decoration: none;
-   vertical-align: middle; 
-}
-
-[class^="btn"] :hover {
-    border-top-color: #28597a;
-   background: #28597a;
-   color: #ccc;
-}
-
-[class^="btn"] :active {
-   border-top-color: #1b435e;
-   background: #1b435e;
-}
-/*.subscribe_button {
-   border-top: 1px solid #96d1f8;
-   background: #65a9d7;
-   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
-   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
-   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
-   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
-   background: -o-linear-gradient(top, #3e779d, #65a9d7);
-   padding: 5.5px 11px;
-   -webkit-border-radius: 3px;
-   -moz-border-radius: 3px;
-   border-radius: 3px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   color: white;
-   font-size: 13px;
-   font-family: Georgia, serif;
-   text-decoration: none;
-   vertical-align: middle;
-   }
-.subscribe_button :hover {
-   border-top-color: #28597a;
-   background: #28597a;
-   color: #ccc;
-   }
-.subscribe_button :active {
-   border-top-color: #1b435e;
-   background: #1b435e;
-   }
-   
-.nzonly_button {
-   border-top: 1px solid #96d1f8;
-   background: #65a9d7;
-   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
-   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
-   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
-   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
-   background: -o-linear-gradient(top, #3e779d, #65a9d7);
-   padding: 5.5px 11px;
-   -webkit-border-radius: 3px;
-   -moz-border-radius: 3px;
-   border-radius: 3px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   color: white;
-   font-size: 13px;
-   font-family: Georgia, serif;
-   text-decoration: none;
-   vertical-align: middle;
-   }
-.nzonly_button :hover {
-   border-top-color: #28597a;
-   background: #28597a;
-   color: #ccc;
-   }
-.nzonly_button :active {
-   border-top-color: #1b435e;
-   background: #1b435e;
-   }*/
-
-.info-accordian-icon {
-   background:url(ico-tool-tip.png) top left no-repeat;
-   padding: 1px 8px;
-}
-
-body {
-  margin: 0;
-  padding: 0;
+   clear: both;
+   padding: 15px 0 0 0;
 }
 
 
@@ -292,4 +278,3 @@ div.footer-social {
   color: #fff;
   text-decoration: none;
 }
-

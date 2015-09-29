@@ -21,10 +21,11 @@
   <link rel="shortcut icon" type="image/x-icon" href="favicon/tab.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.2/fullcalendar.min.css">
   <link rel="stylesheet" media="print" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.2/fullcalendar.print.css">
-  <link rel="stylesheet" href="styles/style.css">
+  
   <link rel="stylesheet" href="styles/fullcalendar.css">
   <link rel="stylesheet" href="styles/sprite_sheet.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-bootstrap/0.5pre/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/style.css">
   
   <!-- Look at changing this -->
   <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
@@ -42,48 +43,66 @@
          </ul>
       </nav>
    </header>
-
-   <!--  Calendar Selection Bar -->
+    <div id="content">
+    <!--  Calendar Selection Bar -->
     <article id="calendar-article">
-      <h3>Racing Calendar</h3>
-      <p>With the TAB Digital Racing Calendar, you can select and add race meetings to the calendar on your personal device. Then set reminders
-      to get your bet on, watch an event on Trackside or attend one of the many on-course events throughout NZ.</p>
-      <p>Start now by selecting a code, then filer by NZ or All Countries and click the subscribe button.</p>
-      <p style="font-style: italic;font-size: 0.9em;">* Preview below before subscribing is recommended.</p>
+        <h3>Racing Calendar</h3>
+        <p>With the TAB Digital Racing Calendar, you can select and add race meetings to the calendar on your personal device. Then set reminders
+        to get your bet on, watch an event on Trackside or attend one of the many on-course events throughout NZ.</p>
+        <p>Start now by selecting a code, then filer by NZ or All Countries and click the subscribe button.</p>
+        <p style="font-style: italic;font-size: 0.9em;">* Preview below before subscribing is recommended.</p>
     </article>
     <article id="calendar-selection">
-        <ul>
-           <li><span id="nz_all" class="icon sprt_ico-sport-shearing-b"/></li>
-           <li><span id="nz_greyhound" class="icon sprt_ico-sport-greyhound-b"/></li>
-           <li><span id="nz_harness" class="icon sprt_ico-sport-harness-b"/></li>
-           <li><span id="nz_thoroughbred" class="icon sprt_ico-sport-gallops-b"/></li>
-        </ul>
+        <div class="calendar-selection-header">
+            <p class="calendar-selection-header-text">Select a code</p>
+        </div>
+        <div class="calendar-selection-code">
+            <ul>
+               <li><span id="nz_all" class="icon sprt_ico-sport-shearing-b"/></li>
+               <li><span id="nz_greyhound" class="icon sprt_ico-sport-greyhound-b"/></li>
+               <li><span id="nz_harness" class="icon sprt_ico-sport-harness-b"/></li>
+               <li><span id="nz_thoroughbred" class="icon sprt_ico-sport-gallops-b"/></li>
+            </ul>
+        </div>
+        <hr class="splitter"/>
+        <div class="calendar-selection-country">
+            <form name="dummyform" class="form-inline">
+    	    <label>Filter</label>
+    	    <select id="country-select">
+    	        <option value="nz">New Zealand Only</option>
+    	        <option value="int">All Countries</option>
+    	    </select>
+    	    </form>
+    	</div>
 	</article>
 	<!--<article id="country-selection">
 	    <a id="country_nzonly" onclick="_gaq.push(['_trackEvent', 'button1', 'clicked'])" href="#" class="btn_country_nzonly" style="top: 237px; left: 103px;">NZ ONLY</a>
 	    <a id="country_all" onclick="_gaq.push(['_trackEvent', 'button2', 'clicked'])" href="#" class="btn_country_all" style="top: 237px; left: 103px;">ALL Countries</a>
 	</article>-->
-	<article id="country-selection">
-	    Filter:
-	    <select id="country-select">
-	        <option value="nz">NZ Only</option>
-	        <option value="int">All Countries</option>
-	    </select>
-	</article>
-	<article id="subscribe_box">
-		    <a onclick="_gaq.push(['_trackEvent', 'button3', 'clicked'])" href="#" class="btn_subscribe" style="top: 237px; left: 203px;"></a>
-		    
-		    <!-- Help Box using jquery accordian -->
-		    <!-- <div id="accordion">
-		       <h6>Need Help with Calendar</h6>
-		       <div>
-		          <p>sfgsdf</p>
-		       </div>
-		    </div>-->
-     </article>
+	<article id="subscribe-box">
+	    <div class="subscribe-box-header">
+            <p class="subscribe-box-header-text">Subscribe with iCalendar</p>
+        </div>
+        <div class="subscribe-box-info">
+            <img src="assets/calendar-icon-ios7.jpg"></img>
+            <p>You can add our digital calendar on your digital devices (Android, iPhone or other calendars that allow importing an '.ics' file)
+            Once downloaded, all race meetings will be scheduled in your calendar. And you can add a reminder to notify you before each race meeting starts.</p>
+        </div>
+        <hr class="splitter" style="clear:both;"/>
+        <div class="subscribe-box-footer">
+            <div class="subscribe-box-footer-help">
+                
+                <a href="#"><span class="info-accordian-icon"></span>iCalendar Help</a>
+            </div>
+            <a href="#" class="btn-subscribe">Add to my iCalendar</a>
+            <!--<a onclick="_gaq.push(['_trackEvent', 'button3', 'clicked'])" href="#" class="btn_subscribe" style="top: 237px; left: 203px;"></a>-->
+            
+        </div>
+    </article>
   <hr>
   <div id='calendar'></div>
   <hr>
+  </div> <!-- end of content -->
   <div class="footer">
     <div class="footer-container">
       <div class="footer-left">
@@ -116,7 +135,6 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script language="JavaScript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 <script language="JavaScript" src="scripts/script.js"></script>
-<script language="JavaScript" src="scripts/sly.js"></script>
 <script language="JavaScript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
 <script language="JavaScript" src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.2/fullcalendar.min.js"></script>
 <script language="JavaScript" src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.2/gcal.js"></script>

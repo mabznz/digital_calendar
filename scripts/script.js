@@ -84,33 +84,6 @@ $(document).ready(function() {
       });  
    });
    
-   /* call sly js library to include a slyder frame of icons to select calendar
-    * http://darsa.in/sly/
-    * http://opensource.org/licenses/MIT
-    */
-   var $frame = $('.frame');
-   var $wrap  = $frame.parent();
-   $frame.sly({
-      horizontal: 1,   
-      itemNav: 'forceCentered',
-      smart: 1,
-      activateOn: 'click',      
-      scrollBy: 1,
-      mouseDragging: 1,
-      swingSpeed: 0.2,
-      scrollBar: $('.scrollbar'),
-      dragHandle: 1,
-      speed: 600,
-      startAt: 0,
-      
-      // Buttons
-      forward: $wrap.find('.forward'),
-      backward: $wrap.find('.backward'),
-      //prev: $wrap.find('.prev'),
-      //next: $wrap.find('.next')
-   });
-   
-   
    /* call fullcalendar js library to display calendars
     * http://fullcalendar.io/
     * http://opensource.org/licenses/MIT
