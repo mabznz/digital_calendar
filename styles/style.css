@@ -27,7 +27,7 @@ nav li {
    padding: 15px 0;
    text-align: center;
    font-family: "Oswald"; 
-   font-size: 1.4em;
+   font-size: 1.2em;
    height: 20px;
 }
 
@@ -44,7 +44,7 @@ nav li a:hover {
 }
 
 img.logo {
-   width: 70px;
+   width: 60px;
    height: 40px;
 }
 
@@ -56,10 +56,13 @@ img.logo {
    header {
      height: 60px;
    }
+   nav ul {
+     width: 80%;
+     margin: 0px 10% 0px 10%   
+   }
    nav li {
       display: block;
       float: left;
-       
    }
      
    nav li:nth-child(1) {
@@ -75,9 +78,9 @@ img.logo {
 
 /* The rest */
 
-div {
+/*div {
   display: block;
-}
+}*/
 
 .backward {
   float: left;
@@ -93,78 +96,84 @@ div {
   font-size: 20px;
 }
 
+#calendar-article {
+  text-align: left;
+  width: 80%;
+  margin: 0px 10% 0px 10% 
+}
+
+#calendar-selection {
+  height: 80px;
+  display: table;
+  margin: 0 auto;
+}
+
+#calendar-selection ul {
+  
+   list-style-type: none;
+   /*padding: 0;
+   margin: 0; */
+}
+
+#calendar-selection ul li {
+   display: inline;
+   float: left;
+}
+
 
 #calendar {
    width: 80%;
    margin: 0px 10% 0px 10%
 }
 
-div.calendar-selection {
-  /*height: 210px;*/
-  width: 20%;
-  margin: 0px 40% 0px 40%
-}
 
-#frame {
-    height: 80px;
-    margin: 0px 0px;
-    padding: 10px 0px; //(ver,hor)
-    overflow: hidden;
-    width: 200px;
-}
-.slidee {
-   list-style: none;
-   margin: 0px 10px;
-    padding: 0px 0px;
-   height: 100%;
-   font-size: 30px;
-}
-.slidee li {
-   float: left;
-   height: 100%;
-   margin: 0 5px 0 0;
-   background: #fff;
-   /* border: solid black; */
-    border-radius: 20px;
-   color: #ddd;
-   text-align: center;
-   cursor: pointer;
-}
-.slidee li.active {
-   /*border: solid red;*/
-}
 
-.scrollbar {
-   margin: 0 0 1em 0;
-   height: 2px;
-   background: #ccc;
-   line-height: 0;
-}
-.scrollbar .handle {
-   width: 100px;
-   height: 100%;
-   background: #292a33;
-   cursor: pointer;
-}
-.scrollbar .handle .mousearea {
-   position: absolute;
-   top: -9px;
-   left: 0;
-   width: 100%;
-   height: 20px;
-}
 
-.controls {
-  margin: 25px 0;
-  text-align: center;
-}
 
 #subscribe_box {
-   margin: 25px 0;
+   height: 50px;
    text-align: center;
 }
 
-.subscribe_button {
+#country-selection {
+   height: 50px;
+   text-align: center;
+}
+
+[class^="btn"] {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 5.5px 11px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 13px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle; 
+}
+
+[class^="btn"] :hover {
+    border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+}
+
+[class^="btn"] :active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+}
+/*.subscribe_button {
    border-top: 1px solid #96d1f8;
    background: #65a9d7;
    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
@@ -195,6 +204,38 @@ div.calendar-selection {
    border-top-color: #1b435e;
    background: #1b435e;
    }
+   
+.nzonly_button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 5.5px 11px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 13px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.nzonly_button :hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.nzonly_button :active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }*/
 
 .info-accordian-icon {
    background:url(ico-tool-tip.png) top left no-repeat;

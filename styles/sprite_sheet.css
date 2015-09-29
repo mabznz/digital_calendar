@@ -1,6 +1,6 @@
 .icon {
 display:block;
-
+border: none;
 background-image:url("SPRITE_SHEET.png");
 background-repeat:no-repeat;
 }

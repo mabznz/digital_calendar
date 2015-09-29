@@ -36,56 +36,51 @@
       <nav role="navigation">
          <ul>
             <li><a href="https://www.tab.co.nz" target="_blank"><img class="logo" src="assets/TAB2014_Logo.png"></img></a></li>
-            <li><a href="https://www.tab.co.nz/racing/video/#/" target="_blank">Racing</a></li>
-            <li><a href="https://www.tab.co.nz/sport" target="_blank">Sport</a></li>
-            <li><a href="https://www.tab.co.nz/information" target="_blank">News & Tips</a></li>
+            <li><a href="https://www.tab.co.nz/racing/video/#/" target="_blank">Bet Now</a></li>
+            <li><a href="https://www.tab.co.nz/sport" target="_blank">Help</a></li>
+            <li><a href="https://www.tab.co.nz/information" target="_blank">TAB Home</a></li>
          </ul>
       </nav>
    </header>
 
    <!--  Calendar Selection Bar -->
-   <div id="calendar-selection">
-      <h3>Calendar Year 2015</h3>
-         <div class="scrollbar">
-            <div class="handle">
-               <div class="mousearea"></div>
-		       </div>
-		   </div>
-         <button class="btn backward">&lt;</button>
-         <button class="btn forward">&gt;</button>
-         <div class="frame">
-            <ul class="slidee">
-	           <li><img id="nz_all" class="icon sprt_ico-sport-shearing-b"></li>
-	           <li><img id="nz_greyhound" class="icon sprt_ico-sport-greyhound-b"></img></li>
-	           <li><img id="nz_harness" class="icon sprt_ico-sport-harness-b"></img></li>
-	           <li><img id="nz_thoroughbred" class="icon sprt_ico-sport-gallops-b"></img></li>
-	        </ul>
-	     </div>
-		    <!--  <button class="btn forward">><i class="icon-chevron-right"></i></button>
-		    <div class="controls center">
-		          <button class="btn next"><i class="icon-chevron-left"></i>next</button>  
-		          <button class="btn prev">prev<i class="icon-chevron-right"></i></button>  
-		    </div>-->
-		 
-		 
-		 <div id="subscribe_box">
-		    <a onclick="_gaq.push(['_trackEvent', 'button3', 'clicked'])" href="#" class="subscribe_button" style="top: 237px; left: 203px;"></a>
-		    <div id="accordion">
+    <article id="calendar-article">
+      <h3>Racing Calendar</h3>
+      <p>With the TAB Digital Racing Calendar, you can select and add race meetings to the calendar on your personal device. Then set reminders
+      to get your bet on, watch an event on Trackside or attend one of the many on-course events throughout NZ.</p>
+      <p>Start now by selecting a code, then filer by NZ or All Countries and click the subscribe button.</p>
+      <p style="font-style: italic;font-size: 0.9em;">* Preview below before subscribing is recommended.</p>
+    </article>
+    <article id="calendar-selection">
+        <ul>
+           <li><span id="nz_all" class="icon sprt_ico-sport-shearing-b"/></li>
+           <li><span id="nz_greyhound" class="icon sprt_ico-sport-greyhound-b"/></li>
+           <li><span id="nz_harness" class="icon sprt_ico-sport-harness-b"/></li>
+           <li><span id="nz_thoroughbred" class="icon sprt_ico-sport-gallops-b"/></li>
+        </ul>
+	</article>
+	<!--<article id="country-selection">
+	    <a id="country_nzonly" onclick="_gaq.push(['_trackEvent', 'button1', 'clicked'])" href="#" class="btn_country_nzonly" style="top: 237px; left: 103px;">NZ ONLY</a>
+	    <a id="country_all" onclick="_gaq.push(['_trackEvent', 'button2', 'clicked'])" href="#" class="btn_country_all" style="top: 237px; left: 103px;">ALL Countries</a>
+	</article>-->
+	<article id="country-selection">
+	    Filter:
+	    <select id="country-select">
+	        <option value="nz">NZ Only</option>
+	        <option value="int">All Countries</option>
+	    </select>
+	</article>
+	<article id="subscribe_box">
+		    <a onclick="_gaq.push(['_trackEvent', 'button3', 'clicked'])" href="#" class="btn_subscribe" style="top: 237px; left: 203px;"></a>
+		    
+		    <!-- Help Box using jquery accordian -->
+		    <!-- <div id="accordion">
 		       <h6>Need Help with Calendar</h6>
 		       <div>
 		          <p>sfgsdf</p>
 		       </div>
-		       
-		    </div>
-		 </div>
-	 <!--<p>1</p>
-	 <p>2</p>
-	 <p>3</p>
-	 <p>4</p>
-	 <p>5</p>
-	 <p>6</p>
-	 <p>7</p>-->
-  </div>
+		    </div>-->
+     </article>
   <hr>
   <div id='calendar'></div>
   <hr>

@@ -269,6 +269,11 @@ every button that is not first in a button group should scootch over one pixel a
 previous button's border...
 */
 
+[class*="fc-button"] {
+	background: #4495d1;
+	color: white; /* inside color
+}
+
 .fc .fc-button-group > * { /* extra precedence b/c buttons have margin set to zero */
 	float: left;
 	margin: 0 0 0 -1px;
