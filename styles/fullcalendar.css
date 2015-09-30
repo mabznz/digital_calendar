@@ -270,7 +270,7 @@ previous button's border...
 */
 
 [class*="fc-button"] {
-	background: #4495d1;
+	background: #2167A2;;
 	color: white; /* inside color
 }
 
@@ -1075,6 +1075,11 @@ be a descendant of the grid when it is being dragged.
 
 /************************************************************************************/
 
-.fc-sun {
-	background-color: #dad9d7;
+.fc-head {
+	background: #2167A2;
+	color: white;
 }
+
+/*.fc-body {
+	background: #33BDEF;
+}*/

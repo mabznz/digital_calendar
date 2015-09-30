@@ -136,7 +136,7 @@ $(document).ready(function() {
             $(this).addClass( "selected" );
             // remove selected from other items
             for (var o in calendars) {
-               alert($(this).attr('id'));
+
                if ( o != $(this).attr('id')) {
                   $("#calendar-selection #" + o).removeClass( "selected" );
                }

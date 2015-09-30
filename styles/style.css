@@ -106,7 +106,7 @@ img.logo {
 /*              The Calendar Selection Box                */
 
 #calendar-selection {
-  width: 45%;
+  width: 35%;
   display: table;
   margin: 0 auto;
   background-color: #FFF;
@@ -129,12 +129,13 @@ img.logo {
     color: #F2F2F2;
     background-color: #F2F2F2;
     height: 3px;
+    margin: 0;
+    padding: 0;
     /*color: #F2F2F2;*/
 }
 
 .calendar-selection-code {
-    height: 60px;
-    margin: 4px 0;  
+    height: 70px;
 }
 
 #calendar-selection ul {
@@ -144,14 +145,22 @@ img.logo {
 }
 
 #calendar-selection ul li {
+     padding: 0 5px;
    display: inline;
    float: left;
+}
+
+.calendar-selection-country {
+    height: 35px;
+    margin: 5px 10px;
+    padding: 5px 0;
 }
 
 /*              Subscribe Box               */
 
 #subscribe-box {
-    width: 52%;
+    width: 60%;
+    
   display: table;
   margin: 0 auto;
   background-color: #FFF;
@@ -168,26 +177,61 @@ img.logo {
 .subscribe-box-header-text {
     font-size: 1.2em;
     color: white;
+    
 }
 
 .subscribe-box-info {
-    padding: 8px 8px;
+    height: 70px;
+    padding: 6px 6px;
 }
 
 .subscribe-box-info img {
-    width: 80px;
-   height: 80px;
+    width: 70px;
+   height: 70px;
    float: left;
 }
 
 .subscribe-box-info p {
-    width: 80%;
+    width: 85%;
+    font-size: 0.9em;
     float: right;
 }
 
 .subscribe-box-footer {
-    clear: both;
+    height: 40px;
+    margin: 5px 0;
 }
+
+.subscribe-box-footer ul {
+     width: 95%;
+     /*margin: 5px 2% 5px 2%;*/
+   }
+   
+.subscribe-box-footer li {
+      display: block;
+      float: left;
+   }
+     
+.subscribe-box-footer li:nth-child(1) {
+    
+      width: 10%;
+   }
+   
+.subscribe-box-footer li:nth-child(2) {
+      width: 30%;
+   }
+   
+.subscribe-box-footer li:nth-child(3) {
+      text-align: right;
+      width: 60%;
+   }
+/*.subscribe-box-footer-help {
+    float: left;
+}
+.subscribe-box-footer-button {
+    float: right;
+}*/
+
 
 .btn-subscribe {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
@@ -228,9 +272,15 @@ img.logo {
 
 /* Calendar */
 
-#calendar {
+#calendar-container {
    clear: both;
-   padding: 15px 0 0 0;
+}
+
+#calendar {
+
+   margin: 0 0 0 0;
+   padding: 10px;
+   background-color: #FFF;
 }
 
 
