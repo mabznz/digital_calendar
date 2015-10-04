@@ -12,7 +12,7 @@ body {
   background-color: #F2F2F2;
 }
 
-header { 
+header, footer { 
    background-color: #1F437F; /* TAB blue */
 }
 
@@ -84,7 +84,6 @@ img.logo {
    
    /* calendar selection and subscribe boxes */
    
-   
    #calendar-selection {
        float: left;
    }
@@ -98,8 +97,6 @@ img.logo {
 
 #calendar-article {
   text-align: left;
-  /*width: 80%;
-  margin: 0px 10% 0px 10%;*/
 }
 
 
@@ -203,35 +200,27 @@ img.logo {
 }
 
 .subscribe-box-footer ul {
-     width: 95%;
-     /*margin: 5px 2% 5px 2%;*/
-   }
+ width: 95%;
+ /*margin: 5px 2% 5px 2%;*/
+}
    
 .subscribe-box-footer li {
-      display: block;
-      float: left;
-   }
+  display: block;
+  float: left;
+}
      
 .subscribe-box-footer li:nth-child(1) {
-    
-      width: 10%;
-   }
+  width: 10%;
+}
    
 .subscribe-box-footer li:nth-child(2) {
-      width: 30%;
-   }
+  width: 30%;
+}
    
 .subscribe-box-footer li:nth-child(3) {
-      text-align: right;
-      width: 60%;
-   }
-/*.subscribe-box-footer-help {
-    float: left;
+  text-align: right;
+  width: 60%;
 }
-.subscribe-box-footer-button {
-    float: right;
-}*/
-
 
 .btn-subscribe {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
@@ -283,8 +272,54 @@ img.logo {
    background-color: #FFF;
 }
 
+/*                            Footer                      */
+
+.footer-left {
+    /*margin: 0 0 0 25%;*/
+    width: 80%;
+}
+
+.footer-right {
+
+    width: 20%;
+}
+
+.footer-links ul {
+
+}
+
+footer ul {
+    clear: both;
+   list-style-type: none;
+   /*padding: 0 50px 0 0;
+   margin: 0 0 0;*/
+}
+
+footer .footer-links li {
+   color: white;
+   padding: 5px 0;
+   text-align: center;
+   font-family: "Oswald"; 
+   font-size: 0.6em;
+   height: 10px;
+   display: block;
+   float: left;
+}
+
+footer .footer-links li a {
+   text-decoration: none;
+   font-size: 1.2em;
+   color: white;
+}
+
+/* mouse over link */
+footer .footer-links li a:hover {
+    color: white;
+    text-decoration: none;
+}
 
 
+/*
 div.home, div.footer {
   min-width: 1020px;
 }
@@ -327,4 +362,4 @@ div.footer-social {
   font-size: 20px;
   color: #fff;
   text-decoration: none;
-}
+}*/

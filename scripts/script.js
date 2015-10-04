@@ -145,13 +145,6 @@ $(document).ready(function() {
       });
    }
    
-   // Calendar Country selection events
-   /*for (var o in calendars) {
-      $("#country-selection #" + o).change(function() {
-         switchCalendar($(this).val() + "_" + $("#country-select").val());
-      });
-   }*/
-   
    for (var o in calendars) {
       $("#calendar-selection #" + o).hover( function() {
          $( this ).removeClass(calendars[$(this).attr('id')].iconUnselected);
